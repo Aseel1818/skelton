@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:mycoachEpic2.Epic2Views"
+             x:Class="mycoachEpic2.Epic2Views.TabBarPage">
+    
+    
+
+    <local:ProfilePage/>
+    
+
+
+
+
+    <ContentPage  Title=" Home Page" IconImageSource="home.png">
+        <ContentPage.Content>
+
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Text="welcome to my coach Home Paeg "></Label>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage  Title=" Profile" IconImageSource="profile.png">
+        <ContentPage.Content>
+
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Text="welcome to Coach profile"></Label>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+
+    <ContentPage  Title=" Notification" IconImageSource="bell.png">
+        <ContentPage.Content>
+
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Text="welcome to Coach Notification"></Label>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+
+</TabbedPage>
